@@ -33,7 +33,7 @@ class _AbocusBottomColumnState extends State<AbocusBottomColumn> {
         left: 5,
         child: GestureDetector(
           child: Disk(
-            colour: Colors.red,
+            colour: widget.color,
           ),
           onVerticalDragStart: (details) {
             posDyStart[index - 1] = details.localPosition.dy;

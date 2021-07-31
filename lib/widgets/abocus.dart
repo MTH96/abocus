@@ -76,7 +76,7 @@ class _AbocusState extends State<Abocus> {
                   AbocusTopColumn(
                     getvalues,
                     3,
-                    color: Colors.lightGreen,
+                    color: Colors.redAccent,
                   ),
                   AbocusTopColumn(
                     getvalues,
@@ -100,7 +100,7 @@ class _AbocusState extends State<Abocus> {
                   AbocusBottomColumn(
                     getvalues,
                     0,
-                    color: Colors.lightBlue,
+                    color: Colors.cyan,
                   )
                 ],
               ),
